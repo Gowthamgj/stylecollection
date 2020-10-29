@@ -1,0 +1,190 @@
+.userdetailcontainer {
+  width: 300px;
+  height: 90px;
+  margin-top: 20px;
+  margin-left: 5%;
+  margin-top: 6%;
+}
+.desktopuserdetail {
+  position: absolute;
+}
+.userimage {
+  width: 70px;
+  height: 70px;
+  float: left;
+  border-radius: 50%;
+}
+.username {
+  margin: 0;
+  margin-top: 5px;
+  float: left;
+  margin-left: 15px;
+  font-weight: bold;
+}
+.useremail {
+  margin: 0;
+  float: left;
+  margin-left: 15px;
+  color: silver;
+}
+.ordercontainer {
+  width: 100%;
+  display: inline-block;
+  margin: 2px;
+  border-bottom: 1px solid grey;
+}
+.orderimg {
+  float: left;
+  border: 5px solid wheat;
+}
+.orderid {
+  font-size: 16px;
+  float: left;
+  color: grey;
+}
+.orderprice {
+  font-size: 16px;
+  color: grey;
+  float: right;
+}
+.orderdesccontainer {
+  /* display: flow-root;w */
+  width: 70%;
+  margin-left: 10%;
+}
+.producticon {
+  float: right;
+  /* margin-top: 10px; */
+  font-weight: bold;
+  margin-right: 10px;
+  -webkit-transform: rotate(90deg);
+}
+.orderdesc {
+  font-weight: bold;
+  margin: 0;
+  font-size: 15px;
+  float: left;
+  width: 40%;
+  margin-top: 10px;
+  text-align: left;
+  margin-top: 1px;
+}
+.deliverytime {
+  margin: 0%;
+  font-size: 14px;
+  float: left;
+  color: silver;
+  margin-top: 3px;
+}
+.pendingbuton {
+  margin: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: none;
+  width: 80px;
+  height: 20px;
+  margin-top: 1%;
+  float: right;
+}
+.darkcolor {
+  background-color: rgb(41, 34, 34);
+  color: white;
+}
+.darkcolor {
+  background-color: grey;
+  color: black;
+}
+.ordertitle {
+  float: left;
+}
+.tabuserarea {
+  width: 85%;
+  margin-left: 5%;
+}
+.tabprofilefirs {
+  display: flex;
+}
+.btncontaineruser {
+  width: 30%;
+  margin-left: 75%;
+}
+.ordertitledesk {
+  color: silver;
+  margin-left: 3%;
+  float: left;
+}
+.ordercontainerdesk {
+  width: 95%;
+  display: inline-block;
+  margin: 2px;
+  border-bottom: 1px solid silver;
+}
+.userheading {
+  float: left;
+  padding-left: 4%;
+  margin: 0%;
+  margin-top: 2%;
+}
+.breadcrump {
+  margin-left: 30px;
+  margin-left: 5%;
+  position: absolute;
+  margin-top: 2%;
+  color: silver;
+}
+@media only screen and (max-width: 420px) {
+  .orderdesccontainer {
+    margin-left: 25%;
+  }
+  .deliverytime {
+    font-size: 11px;
+  }
+  .orderdesc {
+    width: 55%;
+    font-size: 10px;
+  }
+  .orderprice {
+    font-size: 10px;
+  }
+  .pendingbuton {
+    margin-top: 14%;
+  }
+  .userdetailcontainer {
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+  .producticon {
+    margin-top: 35px;
+    -webkit-transform: rotate(0deg);
+  }
+}
+@media only screen and (max-width: 780px) {
+  .btncontaineruser {
+    margin-left: 25%;
+    width: 50%;
+  }
+  .userdetailcontainer {
+    margin-left: 2%;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .tabuserarea {
+    margin-left: 0%;
+  }
+  .userdetailcontainer {
+    margin-left: 1%;
+  }
+  .orderid,
+  .orderdesc,
+  .orderprice {
+    font-size: 10px;
+  }
+  .deliverytime {
+    font-size: 9px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .userdetailcontainer {
+    margin-left: 2%;
+  }
+}

@@ -1,0 +1,29 @@
+.chev {
+  float: right;
+  margin-right: 18px;
+  margin-top: 8px;
+}
+.itemHead {
+  padding: 2px;
+  text-align: center;
+  height: 45px;
+  border-bottom: 1px solid black;
+  /* margin: 3px; */
+  margin-left: 18px;
+  margin-right: 18px;
+}
+.itemContent {
+  padding: 5px;
+  box-sizing: border-box;
+  background: white;
+}
+.title {
+  margin: 0;
+  float: left;
+  margin-left: 5px;
+}
+.subtitle {
+  margin: 0;
+  display: block;
+  float: left;
+}
